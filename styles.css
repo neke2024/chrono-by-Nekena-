@@ -64,3 +64,41 @@ body {
 .desactiver {
     display: none;
 }
+/* ...existing code... */
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #display {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+    .buttons button {
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 8px;
+        border-radius: 6px;
+    }
+    #display {
+        font-size: 18px;
+    }
+    .buttons {
+        gap: 5px;
+    }
+    .buttons button {
+        font-size: 12px;
+        width: 80px;
+        height: 32px;
+        padding: 6px 0;
+    }
+}
