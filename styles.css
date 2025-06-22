@@ -69,12 +69,12 @@ body {
 /* Responsive styles */
 @media (max-width: 600px) {
     .container {
-        padding: 15px;
+        margin: 15px;
         border-radius: 10px;
     }
     #display {
         font-size: 28px;
-        margin: 10px 0;
+        margin: 10px 0px;
     }
     .buttons button {
         font-size: 16px;
@@ -86,7 +86,7 @@ body {
 
 @media (max-width: 400px) {
     .container {
-        padding: 8px;
+        margin: 8px;
         border-radius: 6px;
     }
     #display {
